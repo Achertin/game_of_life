@@ -74,7 +74,7 @@ fn next(world: [bool; SQUARE]) -> [bool; SQUARE] {
 
 
 fn main() {
-    let mut world = generate(DIMENSIONS * 100);
+    let mut world = generate(DIMENSIONS * 20);
     let mut img = Image::new(DIMENSIONS as u32, DIMENSIONS as u32);
     save(&world, &mut img, 0);
 
